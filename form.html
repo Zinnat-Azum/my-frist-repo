@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>about form</title>
+</head>
+<body>
+    <form action="">
+       <P> Name:<input type="text" name="name" placeholder="Enter your name"></P>
+       <P> Email:<input type="text" name="email" placeholder="Enter your Email"></P>
+       <p> password:<input type="password" name="password" placeholder="Enter your password"></p>
+       <div>
+        <fieldset>
+            <legend>Sylect your topic</legend>
+            <p><label for="Digital marketing">
+            <input type="radio" name="topic" id="Digital marketing">Digital marketing
+            </label></p>
+            <p><label for="Afilate marketing"><input type="radio" name="topic" id="Afilate marketing">Afilate marketing
+            </label></p>
+            <p><label for="CPA marketing">
+            <input type="radio" name="topic" id="CPA marketing">CPA marketing
+            </label></p>
+        </fieldset>
+       </div>
+       <section>
+        <legend>Select yout Country</legend></br>
+            Country: <select name="Country">
+            <option value="USA">USA</option>
+            <option value="Kanada">Kanada</option>
+            <option value="Australia">Australia</option>
+            <option value="India">India</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="China">China</option>
+            <option value="Japan">Japan</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Pakistan">Pakistan</option>
+            </select>
+       </section>
+       <fieldset>
+        <legend>select your menu</legend>
+        <p><label for="egg"><input type="checkbox" name="e" id="egg">egg</label></p>
+        <p><label for="meat"><input type="checkbox" name="m" id="meat">meat</label></p>
+        <p><label for="chicken"><input type="checkbox" name="c" id="chicken">chicken</label></p>
+       </fieldset>
+       <p>Special instructions</p>
+       <textarea name="instructions" id="" cols="30" rows="10"></textarea>
+       <p><button type="submit">submit</button>
+        <button type="reset">reset</button></p>
+        </form>
+    </body>
+</html>
